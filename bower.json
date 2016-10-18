@@ -1,5 +1,5 @@
 {
-  "name": "seed-element",
+  "name": "fort-time",
   "version": "1.0.0",
   "authors": [
     "Anonymous <anonymous@example.com>"
@@ -11,9 +11,9 @@
     "seed"
   ],
   "private": true,
-  "main": "seed-element.html",
+  "main": "fort-time.html",
   "license": "MIT",
-  "homepage": "https://github.com/FortifiElements/seed-element/",
+  "homepage": "https://github.com/FortifiElements/fort-time/",
   "ignore": [
     "/.*",
     "/test/",
@@ -21,7 +21,8 @@
     "/node_modules/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.7.0"
+    "polymer": "Polymer/polymer#^1.7.0",
+    "time-elements": "git://github.com/github/time-elements#^0.6.1"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.1.7",
